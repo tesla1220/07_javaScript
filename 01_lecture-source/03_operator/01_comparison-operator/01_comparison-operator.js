@@ -11,7 +11,7 @@
 // 숫자1, 문자1, true 를 비교 
 console.log(`1 == '1' : ${1 == '1'}`);
 console.log(`1 === '1' : ${1 === '1'}`);
-console.log(`1 == 'true' : ${1 == true}`);    // ??? 왜 false가 나오는지?
+console.log(`1 == 'true' : ${1 == true}`);    
 console.log(`1 === 'true' : ${1 === 'true'}`);
 
 // null, undefined

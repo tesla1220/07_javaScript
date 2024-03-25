@@ -22,7 +22,7 @@ dog['eat']('고구마');
 // 반드시!!!!!!!!!!! 대괄호 표기법을 사용한다.
 
 var obj ={
-    'dash-key' : 'dash-value'
+    'dash-key' : 'dash-value',
     0 : 1
 };
 

@@ -16,7 +16,7 @@ console.log(undef);
     이전에 할당되어 있던 값에 대한 참조를 명시적으로 제거하지 않는 것을 의미하고
     자바스크립트 엔진은 누구도 참조하지 않는 메모리 공간에 대해 
     가비지 컬렉션을 수행하게 된다.
-*/
+*/ 
 
 var nullVal = 'something';
 nullVal = null;

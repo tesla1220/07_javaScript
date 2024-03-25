@@ -13,4 +13,10 @@ console.log(+'');
 console.log(+'javaScript');
 console.log(+true);
 console.log(+false);
-console.log(+Symbol());
+console.log(+Symbol()); // console.log(+Symbol()); Cannot convert a Symbol value to a number
+console.log(+{});
+console.log(+[]);
+console.log(+function(){});
+
+// 빈 문자열, 빈 배열, null, false는 0으로 반환,  true는 1로 반환
+// 객체와 undefined 는 변환이 되지 않아 NaN 반환 

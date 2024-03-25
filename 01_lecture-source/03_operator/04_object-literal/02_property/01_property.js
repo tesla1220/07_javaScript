@@ -32,3 +32,6 @@ var key = 'test';
 obj[key] = 'test value';
 
 console.table(obj);
+
+// 프로퍼티 추가 순서는 정수 프로퍼티는 자동 우선 정렬되고,
+// 그 외의 프로퍼티는 객체에 추가한 순서대로 정렬된다.

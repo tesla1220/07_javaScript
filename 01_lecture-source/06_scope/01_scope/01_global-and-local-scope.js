@@ -18,3 +18,10 @@ function outer() {
     inner();
 }
 outer();
+
+console.log(x);
+
+console.log(apply(
+function(value) {
+    return value ** 2;
+}, 5));
